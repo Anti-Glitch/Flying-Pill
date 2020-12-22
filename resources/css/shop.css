@@ -6,7 +6,7 @@
     font-size: 75px;
     text-align: center;
     display: inline;
-    margin-left: 375px;
+    margin-left: 525px;
 }
 
 .Center {
@@ -27,16 +27,16 @@ button {
     color: black;
 }
 
-.Shop-Button {
+.Help-Button {
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 300px;
+    margin-left: 550px;
     text-align: center;
     text-decoration: none;
     color: black;
 }
 
-.Help-Button {
+.Home-Button {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -50,3 +50,6 @@ button {
     background-size: contain;
 }
 
+#Red {
+    color: red;
+}

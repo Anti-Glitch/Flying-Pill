@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <link rel = "stylesheet" href = "resources/css/help.css"/>
+</head>
+<body>
+    <div class = "Top">
+        <button class = "Home-Button"><a href = "index.html">Home</a></button>
+        <h1 class = "Title">Help</h1>
+        <button class = "Shop-Button"><a href = "shop.html">Shop</a></button>
+        <h1 class = "Center">Ask our defenitely real human a question!</h1>
+    </div>
+
+    <div class = "Input-System">
+        <input type="text" id="myText" value="">
+
+        <p>Press submit to submit a question.</p>
+
+        <button onclick="myFunction()">Submit</button>
+
+        <p id="demo"></p>
+
+        <script>
+        function myFunction() {
+        var x = document.getElementById("myText").value;
+        document.getElementById("demo").innerHTML = "I don't know. Ask Martin you lazy human.";
+        }
+        </script>
+        
+    </div>
+</body>
+</html>
