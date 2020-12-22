@@ -1,12 +1,6 @@
-.Top {
-    display: inline;
-}
-
 .Title { 
     font-size: 75px;
     text-align: center;
-    display: inline;
-    margin-left: 375px;
 }
 
 .Center {
@@ -30,10 +24,9 @@ button {
 .Shop-Button {
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 300px;
-    text-align: center;
     text-decoration: none;
     color: black;
+    text-align: center;
 }
 
 .Help-Button {
